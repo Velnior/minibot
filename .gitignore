@@ -20,3 +20,22 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Other files, stolen from other project's .gitignore files
+**/bin/
+**/build/
+**/target/
+
+.checkstyle
+.classpath
+.idea
+.project
+.settings
+emma
+documentation
+jacoco.exec
+junit
+mvn_checkstyle.xml
+project
+test-output
+*.iml
